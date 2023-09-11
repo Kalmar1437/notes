@@ -1,0 +1,83 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    border: 1px solid;
+    align-items: center;
+}
+
+.container{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 70vh;
+    margin-left: 15vh;
+}
+
+.noteTable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.link{
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    width: 10%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.head{
+    /* border: 1px solid; */
+    align-content: center;
+    width: 40%;
+    align-self: center;
+}
+.date{
+    width: 40%;
+    /* border: 1px solid; */
+}
+
+body{
+    margin: 0;
+}
+
+.hiddenId{
+    display: none;
+}
+.note{
+    text-align:justify;
+    width:100%;
+    height: fit-content;
+}
+
+.edit{
+    width: 100%;
+    height: 100%;
+}
+.button{
+    width: 100%;
+}
+.delete{
+    width: 20%;
+}
+.oneNote{
+    height: fit-content;
+    width: 80%;
+}
+.editForm{
+    width: 100%;
+}
+#list{
+    width: 79%;
+}
+.formButtons{
+    width: 10%;
+}
+
+tr{
+    border: 1px solid;
+}
