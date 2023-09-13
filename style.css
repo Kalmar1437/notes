@@ -69,15 +69,21 @@ body{
     width: 80%;
 }
 .editForm{
-    width: 100%;
+    display: inline-block;
+    width: 85%;
 }
-#editInput{
-    width: 77%;
-}
+
 .formButtons{
-    width: 10%;
+    width: 5em;
+}
+.cancel{
+    display: inline-block;
+    width: 14%;
 }
 
 tr{
     border: 1px solid;
+}
+.editInput{
+    width: 80%;
 }

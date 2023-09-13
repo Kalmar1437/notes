@@ -9,11 +9,11 @@ function showEditForm(){
     form.style.width = '100%';
     form.innerHTML = `
     <form action=\'editNote.php\' method=\'post\' class=\'editForm\'>
-        <input class=\"input\" type=\"text\" name=\"editedNote\" id =\"editInput\" value=\'${value}\'>
+        <input class=\"editInput\" type=\"text\" name=\"editedNote\" value=\'${value}\'>
         <input class=\'hiddenId\' type=\"text\" name=\"id\" value=\'${id}\'>
         <button type=\'submit\' name=\'edited\' class=\'formButtons\'>submit</button>
-        <button class=\'formButtons\'>cancel</button>
-    </form>`;
+    </form>
+        <button class=\'cancel\'>cancel</button>`
     button.style.display = 'none';
     function cancel(){
         button.style.display = 'inline-block';
